@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-section {
+.container {
     display: flex;
 }
 
@@ -42,8 +42,44 @@ a {
 .half-width {
     width: 50%;
     padding: 50px;
+
 }
 
 #tufayel-image {
     width: 90%;
+}
+
+#full-stack-dev {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#full-stack-dev h1 {
+    font-size: 40px;
+}
+
+#baby-web-dev {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, rgb(207, 163, 155));
+    border-image-slice: 1;
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#baby-web-dev h1 {
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 130px;
 }
